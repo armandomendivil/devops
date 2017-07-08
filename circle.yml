@@ -4,6 +4,7 @@ jobs:
     working_directory: ~/app
     docker:
       - image: platzi
+      - entrypoint: .
     steps:
       - run:
           name: "Checking Versions"
