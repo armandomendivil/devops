@@ -1,4 +1,4 @@
-FROM node:8.0
+FROM node:8.1.3
 EXPOSE 3000
 
 WORKDIR /app
