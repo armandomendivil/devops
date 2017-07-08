@@ -1,0 +1,16 @@
+{
+  "name": "platzi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Armando Mendivil <armandomendivil.m@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.15.3",
+    "mocha": "3.4.2",
+    "supertest": "3.0.0"
+  }
+}
