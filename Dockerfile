@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:8.0
 EXPOSE 3000
 
 WORKDIR /app
