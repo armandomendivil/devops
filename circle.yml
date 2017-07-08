@@ -1,13 +1,11 @@
-version: 2
-jobs:
-  build:
-    working_directory: ~/app
-    docker:
-      - image: platzi
-      - entrypoint: .
-    steps:
-      - run:
-          name: "Checking Versions"
-          command: |
-            node --version
-            npm --version
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker build -t platzi .
+
+test:
+  override:
+    - docker run platzi npm test
