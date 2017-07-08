@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/app
     docker:
-      - image: node:8.0
+      - image: platzi .
     steps:
       - run:
           name: "Checking Versions"
