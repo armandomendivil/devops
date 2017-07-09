@@ -6,7 +6,7 @@ machine:
 
 dependencies:
   pre:
-    - sudo chown ubuntu:ubuntu /app
+    - sudo chown ubuntu:ubuntu ~/app
   override:
     - docker build -t platzi .
 
