@@ -1,6 +1,6 @@
 machine:
-  node:
-    version: 8.1
+  ubuntu:
+    version: 14.04
   services:
     - docker
 
