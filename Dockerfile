@@ -1,4 +1,4 @@
-FROM node:6.9
+FROM circleci/node:latest
 EXPOSE 3000
 
 WORKDIR /app
